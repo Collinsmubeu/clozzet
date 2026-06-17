@@ -19,7 +19,7 @@ function Hero() {
               <br /> Clozzet will elevate your wardrobe with the best
               collections.
               <br /> Be exclusive, Be Devine, Be yourself. Explore outfits that
-              will make you comfortably beautiful . True style never dies.
+              will make you comfortably beautiful. True style never dies.
             </p>
 
             <div className="flex flex-wrap gap-6">
