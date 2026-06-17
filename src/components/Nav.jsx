@@ -16,7 +16,7 @@ function Nav() {
 
           <div className="flex items-center gap-4">
             <ShoppingCart className="h-6 w-6 text-slate-900"  />
-            <span className="absolute mx-5 top-6 flex rounded-full bg-emerald-400  ">0</span>
+            <span className="absolute mx-5 top-6 flex rounded-full bg-emerald-400 w-3 h-5  ">0</span>
             <button className="hidden sm:inline-flex text-base font-medium text-slate-900">Sign Up</button>
             <button className="hidden sm:inline-flex rounded-full border border-slate-900 px-6 py-2 text-base font-semibold text-slate-900 transition hover:bg-slate-50">
               Log In

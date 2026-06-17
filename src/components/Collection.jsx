@@ -40,7 +40,6 @@ function Collection() {
       e.target.textContent = "Added to Cart";
       setCart(prev=>[...prev,product])
     }
-   {console.log(Cart)}
   }
   return (
     <section className="bg-white py-16">
@@ -49,6 +48,7 @@ function Collection() {
           <h2 className="text-2xl font-semibold text-slate-900">
             Featured Collection
           </h2>
+          { console.log(Cart) }
           <p className="max-w-2xl text-sm text-slate-500">
             Discover the latest arrivals and premium styles selected for you.
           </p>

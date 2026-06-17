@@ -1,13 +1,13 @@
-import { BrowserRouter, Routes, Route } from "react-router";
+import { HashRouter, Routes, Route } from "react-router-dom";
 import Home from "../pages/Home";
 import Shop from "../pages/shop";
 import Product from "../pages/product";
 import NotFound from "../pages/NotFound";
 import Layout from "../pages/Layout";
-import Cart from "../pages/Cart"
+import Cart from "../pages/Cart";
 function Router() {
   return (
-    <BrowserRouter>
+    <HashRouter>
       <Routes>
         <Route
           path="/"
@@ -50,7 +50,7 @@ function Router() {
           }
         />
       </Routes>
-    </BrowserRouter>
+    </HashRouter>
   );
 }
 
