@@ -7,7 +7,6 @@ export default defineConfig({
   base: "/clozzet/",
   plugins: [
     react(),
-    babel({ presets: [reactCompilerPreset()] }),
     tailwindcss(),
   ],
 });
